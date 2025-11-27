@@ -12,11 +12,11 @@ const Cart = (props) => {
   const hasItems = cartCtx.items.length > 0;
 
   const cartItemRemoveHandler = (id) => {
-    cartCtx.removeItem(id);
+    cartCtx.removeItem(id); // ok c'era già allora aggiunto solo uncommento
   };
 
   const cartItemAddHandler = (item) => {
-    cartCtx.addItem({ ...item, amount: 1 });
+    cartCtx.addItem({ ...item, amount: 1 }); // ok c'era già allora aggiunto solo uncommento
   };
 
   const cartItems = (
