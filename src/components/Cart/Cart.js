@@ -12,7 +12,7 @@ const Cart = (props) => {
   const hasItems = cartCtx.items.length > 0;
 
   const cartItemRemoveHandler = (id) => {
-    cartCtx.removeItem(id); // ok c'era già allora aggiunto solo uncommento!
+    cartCtx.removeItem(id); // okok
   };
 
   const cartItemAddHandler = (item) => {
